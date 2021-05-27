@@ -1,0 +1,20 @@
+*~
+.settings
+.project
+.pydevproject
+.cproject
+
+/build
+
+
+# Wrap directories
+subprojects/packagecache
+subprojects/SFML-*
+subprojects/flac-*
+subprojects/freetype-*
+subprojects/libogg-*
+subprojects/libpng-*
+subprojects/libvorbis-*
+subprojects/openal*-*
+subprojects/stb
+subprojects/zlib-*

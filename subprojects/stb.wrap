@@ -1,0 +1,7 @@
+[wrap-git]
+directory = stb
+url = https://github.com/jpakkane/stb.git
+revision = master
+
+[provide]
+stb = stb_dep
