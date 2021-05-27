@@ -5,13 +5,14 @@
 .cproject
 
 /build
-
+/imgui.ini
 
 # Wrap directories
 subprojects/packagecache
 subprojects/SFML-*
 subprojects/flac-*
 subprojects/freetype-*
+subprojects/imgui-*
 subprojects/libogg-*
 subprojects/libpng-*
 subprojects/libvorbis-*

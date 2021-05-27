@@ -8,7 +8,8 @@ project('sfmlapp', 'cpp',
 cpp = meson.get_compiler('cpp')
 
 sfml_dep = dependency('sfml')
+imgui_sfml_dep = dependency('imgui-sfml')
 
 executable('sfml-test', 'sfmltest.cpp',
     win_subsystem: 'windows',
-    dependencies: [sfml_dep])
+    dependencies: [imgui_sfml_dep, sfml_dep])

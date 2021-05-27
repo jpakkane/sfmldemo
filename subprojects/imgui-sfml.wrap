@@ -1,0 +1,12 @@
+[wrap-file]
+directory = imgui-sfml-2.3
+source_url = https://github.com/eliasdaler/imgui-sfml/archive/refs/tags/v2.3.tar.gz
+source_filename = v2.3.tar.gz
+source_hash = 4e2f520916d1d676a4553f5c266ed869e32808b0f4681b9b603280257323a45b
+patch_url = https://wrapdb.mesonbuild.com/v1/projects/imgui-sfml/2.3/1/get_zip
+patch_filename = imgui-sfml-2.3-1-wrap.zip
+patch_hash = c4aa247ed3080b43759510729e1ab9775baf2f037c8aa706ed6042832e7fc5db
+
+[provide]
+imgui-sfml = imgui_sfml_dep
+
